@@ -23,7 +23,10 @@ What is the most central node for each measure
 <li><h3><u>Normalized Degree Centrality</u> :-</h3>
     <br>First we define "degree centrality" measure and then the "normalized degree centrality" measure
     <br><br><b>Degree Centrality</b> - Simple centrality measure which counts the number of neighbors a node has.
-    The degree centrality $C_{d}$ for node v$_{i}$ in an undirected graph is computed as: 𝐶𝑑(𝑣𝑖)=𝑑<br>       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;where d$_{i}$ is the degree (number of adjacent edges) of node v$_{i}$
+    The degree centrality Cd for node vi in
+an undirected graph is
+Cd(vi) = di; (3.1)
+where di is the degree (number of adjacent edges) of node vi.
     <br><br><b>Normalized Degree Centrality</b> - To overcome the problem of degree centralities not allowed to be compared between different networks, we need to normalize the degree centrality values.
     <br> Simple normalization is done by dividing the degree centrality by the maximum possible degree; this yields measures ranging from 0 to 1. This is computed as follows:-<br><b>$$C^{norm}_{d}(v_i) =\frac{d_i}{n-1} ,$$</b>
     <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;where n is the number of nodes.
